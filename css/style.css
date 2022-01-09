@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Light.woff2') format('woff2'),
+        url('./css/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-LightItalic.woff2') format('woff2'),
+        url('./css/Rubik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Black.woff2') format('woff2'),
+        url('./css/Rubik-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Bold.woff2') format('woff2'),
+        url('./css/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-BlackItalic.woff2') format('woff2'),
+        url('./css/Rubik-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-BoldItalic.woff2') format('woff2'),
+        url('./css/Rubik-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-ExtraBoldItalic.woff2') format('woff2'),
+        url('./css/Rubik-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Italic.woff2') format('woff2'),
+        url('./css/Rubik-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-ExtraBold.woff2') format('woff2'),
+        url('./css/Rubik-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Light.woff2') format('woff2'),
+        url('./css/Rubik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-LightItalic.woff2') format('woff2'),
+        url('./css/Rubik-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Medium.woff2') format('woff2'),
+        url('./css/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-MediumItalic.woff2') format('woff2'),
+        url('./css/Rubik-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-Regular.woff2') format('woff2'),
+        url('./css/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-SemiBold.woff2') format('woff2'),
+        url('./css/Rubik-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./css/Rubik-SemiBoldItalic.woff2') format('woff2'),
+        url('./css/Rubik-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    background: #f6f6f9;
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-brand {
+    text-decoration: none;
+    color: #295091;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.currency-list {
+    display: flex;
+    margin-right: auto;
+}
+
+.currency-item {
+    display: flex;
+    margin-right: 15px;
+}
+
+.currency-symbol {
+    color: #295091;
+    margin-right: 3px;
+}
+
+.currency-value {
+    color: rgba(82, 82, 82);
+}
+
+.header-search,
+.header-language,
+.header-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header-language p {
+    font-weight: 600;
+}
+
+.header-language-flag {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.header-social-link {
+    text-decoration: none;
+    background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.header-social-icon {
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: #f6f6f9;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.nav-item {
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #515151;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.ads {
+    background-color: #f6f6f9;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.news {
+    padding-top: 20px;
+}
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.news-item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.news-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.news-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-thumb {
+    border-radius: 5px;
+}
+
+.news-title {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.news-date {
+    color: #6B6D97;
+    font-weight: 500;
+}
+
+.corona {
+    background-color: #fff;
+}
+
+.corona-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #f6f6f9;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.corona-item {
+    display: flex;
+    align-items: center;
+}
+
+.corona-item-ill {
+    border-left: 3px solid #EB5569;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.corona-item-smile {
+    border-left: 2px solid #F4CCD1;
+    padding-left: 20px;
+}
+
+.corona-item-dead {
+    border-left: 2px solid #F4CCD1;
+    padding-left: 20px;
+}
+
+.corona-img {
+    width: 35px;
+    margin-right: 20px;
+}
+
+.corona-text {
+    width: 230px;
+}
+
+.corona-ill-icon-text {
+    color: #DB0000;
+}
+
+.corona-smile-text {
+    color: #05B135;
+}
+
+.corona-dead-icon-text {
+    color: #000;
+}
+
+.corona-number {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reklama {
+    margin-top: 15px;
+}
+
+.reklama .container {
+    display: flex;
+    align-items: center;
+    background-color: #FCF3E0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.rek-img {
+    width: 35px;
+    margin-right: 20px;
+}
+
+.rek-link {
+    margin-left: 220px;
+    background: linear-gradient(90deg, #FE5E29, #FF9547);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.additional-information {
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box-left-item {
+    margin-top: 15px;
+}
+
+.box-left-paragraph {
+    font-weight: bold;
+}
+
+.additional-information-list-fact {
+    margin-top: 20px;
+}
+
+.additional-information-item {
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.additional-information-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.additional-information-link {
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+}
+
+.additional-information-img {
+    margin-right: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.additional-information-title {
+    color: #000;
+}
+
+.additional-information-text {
+    color: #5A5A5A;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.additional-information-date {
+    color: #8797AF;
+}
+
+.additional-information-date-img {
+    width: 15px;
+}
+
+.clr {
+    height: 30px;
+}
+
+.box-left-link {
+    text-decoration: none;
+    background-color: #295093;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 300px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.box-left-link:hover {
+    box-shadow: 0px 5px 7px rgb(72, 60, 177);
+}
+
+.information {
+    background-color: #f6f6f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.information-list-right {
+    padding-top: 10px;
+}
+
+.information-item {
+    padding-bottom: 20px;
+}
+
+.information-item-border {
+    border-bottom: 5px solid #E4E4E4;
+}
+
+.information-link {
+    text-decoration: none;
+}
+
+.information-text {
+    color: #5a5a5a;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.information-date {
+    color: #8797AF;
+    font-weight: 500;
+}
+
+.information-reklama-img {
+    height: 500px;
+}
+
+.reklama-program {
+    background-color: #f6f6f9;
+    margin-top: 50px;
+}
+
+.reklama-program .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.telephone-img {
+    width: 250px;
+}
+
+.reklama-program-title {
+    color: #295091;
+    margin-bottom: 20px;
+}
+
+.reklama-program-text {
+    width: 550px;
+    margin-right: 30px;
+}
+
+.reklama-program-link {
+    margin-right: 5px;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #295093;
+}
+
+.footer-unordered-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 5px solid #133C82;
+    padding-bottom: 20px;
+}
+
+.footer-unordered-title {
+    padding: 10px;
+    background-color: #133C82;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.footer-unordered-text {
+    color: #fff;
+}
+
+.footer-unordered-link {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    text-decoration: none;
+    color: #295091;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer-ordered-list {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer-ordered-text {
+    width: 400px;
+}
+
+.footer-ordered-info {
+    margin-top: 10px;
+}
